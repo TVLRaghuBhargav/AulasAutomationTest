@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Aulas Application Test Automation TestvSuites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Aulas_TestCases(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="aulaslogoImageTest"/>
+          <include name="termsandconditionsTest"/>
+          <include name="privacypolicyTest"/>
+          <include name="validateCreateNewLogin" invocation-numbers="0 1 2 3 4"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Aulas_TestCases(failed) -->
+</suite> <!-- Failed suite [Aulas Application Test Automation TestvSuites] -->
